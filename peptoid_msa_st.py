@@ -153,7 +153,7 @@ st.markdown('''
 
 st.title('Peptoid MSA Visualization Tool')
 st.markdown('<br>', unsafe_allow_html=True)
-st.text('''This is a web-hosted python-based tool designed for visualizing multiple sequence alignments (MSAs) of peptoid sequences. It allows users to paste or upload peptoid sequences in FASTA format and generates a clear, interactive alignment plot. The tool supports customizable color schemes based on user-defined properties, helping to highlight key structural and chemical features.''')
+st.text('''This is a web-hosted python-based tool designed for visualizing multiple sequence alignments (MSAs) of peptoid sequences. It allows users to paste in FASTA sequences and generates a clear, interactive alignment plot. The tool supports customizable color schemes based on user-defined properties, helping to highlight key structural and chemical features.''')
 st.markdown('''###### Click 'Show MSA' at bottom to view''')
 st.markdown('<br>', unsafe_allow_html=True)
 
