@@ -285,7 +285,6 @@ if st.button('Show MSA'):
         names, seqs = read_fasta(input_fasta)
         st.write('Analysing...')
         fig, w, h = plot_msa_plotly(names, seqs, st.session_state.custom_cmap, st.session_state.custom_propmap)
-        print(w,h)
         st.plotly_chart(fig, use_container_width=False)
         col1c, col2c, col3c, col4c = st.columns(4)
         with col1c:
